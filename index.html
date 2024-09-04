@@ -14,50 +14,27 @@
         }
 
         .navbar {
-            background-color: #333;
-            overflow: hidden;
+            position: sticky;
+            top: 0;
+            background-color: rgba(51, 51, 51, 0.5); /* Semi-transparent background */
+            backdrop-filter: blur(10px); /* Background blur effect */
+            border-bottom: 2px solid white; /* White line separating navbar */
+            z-index: 1000; /* Ensures the navbar stays on top */
+            display: flex;
+            justify-content: center;
         }
 
         .navbar a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
             padding: 14px 20px;
             text-decoration: none;
+            color: white;
+            text-align: center;
+            font-size: 18px;
+            transition: background-color 0.3s;
         }
 
         .navbar a:hover {
-            background-color: #575757;
-        }
-
-        .constellation {
-            padding: 20px;
-            margin: 20px;
-            border: 1px solid #444;
-        }
-
-        .constellation h2 {
-            color: #ffd700;
-            font-size: 24px;
-        }
-
-        .constellation img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto 20px;
-        }
-
-        .constellation p {
-            font-size: 18px;
-            line-height: 1.6;
-        }
-
-        .constellation .section-title {
-            color: #ff6347;
-            font-size: 20px;
-            margin-top: 10px;
+            background-color: rgba(255, 255, 255, 0.1); /* Slightly lighter on hover */
         }
     </style>
 </head>
@@ -69,6 +46,7 @@
         <a href="#ursaminor">Ursa Minor</a>
         <a href="#lyra">Lyra</a>
     </div>
+
 
     <div id="cygnus" class="constellation">
         <h2>Cygnus (The Swan)</h2>
