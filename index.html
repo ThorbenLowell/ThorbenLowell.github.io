@@ -22,7 +22,7 @@
           top: 0;
           background-color: rgba(255, 255, 255, 0.05); /* Semi-transparent background */
           backdrop-filter: blur(3px); /* Background blur effect */
-          border-bottom: 1px solid white; /* White line separating navbar */
+          border-bottom: 1px solid #ffffffb0; /* White line separating navbar */
           z-index: 1000; /* Ensures the navbar stays on top */
           display: flex;
           justify-content: center;
@@ -35,10 +35,12 @@
           text-align: center;
           font-size: 18px;
           transition: background-color 0.3s;
+          transition: font-weight 0.1s;
         }
 
         .navbar a:hover {
           background-color: rgba(255, 255, 255, 0.1); /* Slightly lighter on hover */
+          font-weight: 600;
         }
 
         strong {
