@@ -70,6 +70,7 @@
       .svgNtable {
         display: flex;
         flex-direction: row;
+        gap: 10px;
       }
       
       .tableNlegend {
@@ -84,6 +85,13 @@
         color: #ffffffb0;
       }
 
+      .sternbild {
+        flex-grow: 1;
+        max-width: 40%;
+      }
+
+      
+      
     </style>
   </head>
 
@@ -100,7 +108,7 @@
       <div id="ursaminor" class="constellation">
         <h2>Ursa Minor (The Little Bear)</h2>
         <div class=svgNtable>
-          <object type="image/svg+xml" data="ursaminor.svg" alt="Ursa Minor Constellation"></object>
+          <object class="sternbild" type="image/svg+xml" data="ursaminor.svg" alt="Ursa Minor Constellation"></object>
           <div class="tableNlegend">
             <table>
               <tr>
