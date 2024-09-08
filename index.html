@@ -35,12 +35,10 @@
           text-align: center;
           font-size: 18px;
           transition: background-color 0.3s;
-          transition: font-weight 0.1s;
         }
 
         .navbar a:hover {
           background-color: rgba(255, 255, 255, 0.1); /* Slightly lighter on hover */
-          font-weight: 600;
         }
 
         strong {
@@ -183,79 +181,84 @@
     <div id="Cygnus" class="outer">
       <div id="cygnus" class="constellation">
         <h2>Cygnus (The Swan)</h2>
-        <object type="image/svg+xml" data="cygnuslyra.svg" alt="Cygnus and Lyra Constellation"></object>
-        <table>
-          <tr>
-            <th>Star</th>
-            <th>Name</th>
-            <th>Distance</th>
-            <th>Magnitude</th>
-            <th>Temperature</th>
-          </tr>
-          <tr>
-            <td>α</td>
-            <td>Deneb</td>
-            <td>2,616 <strong>ly</strong></td>
-            <td>1.25</td>
-            <td>8,525 <strong>K</strong></td>
-          </tr>
-          <tr>
-            <td>β</td>
-            <td>Albireo (A)</td>
-            <td>420 <strong>ly</strong></td>
-            <td>3.1</td>
-            <td>4,383 <strong>K</strong></td>
-          </tr>
-          <tr>
-            <td>γ</td>
-            <td>Sadr</td>
-            <td>1,800 <strong>ly</strong></td>
-            <td>2.23</td>
-            <td>6,100 <strong>K</strong></td>
-          </tr>
-          <tr>
-            <td>δ</td>
-            <td>Fawaris</td>
-            <td>165 <strong>ly</strong></td>
-            <td>2.87</td>
-            <td>9,600 <strong>K</strong></td>
-          </tr>
-          <tr>
-            <td>ε</td>
-            <td>Aljanah</td>
-            <td>72 <strong>ly</strong></td>
-            <td>2.48</td>
-            <td>7,320 <strong>K</strong></td>
-          </tr>
-          <tr>
-            <td>ζ</td>
-            <td>Zeta Cygni (A)</td>
-            <td>151 <strong>ly</strong></td>
-            <td>3.26</td>
-            <td>4,820 <strong>K</strong></td>
-          </tr>
-          <tr>
-            <td>η</td>
-            <td>Eta Cygni</td>
-            <td>138 <strong>ly</strong></td>
-            <td>3.89</td>
-            <td>4,780 <strong>K</strong></td>
-          </tr>
-          <tr>
-            <td>ι2</td>
-            <td>Iota(²) Cygni</td>
-            <td>115 <strong>ly</strong></td>
-            <td>3.76</td>
-            <td>8,216 <strong>K</strong></td>
-          </tr>
-          <tr>
-            <td>κ</td>
-            <td>Kappa Cygni</td>
-            <td>124 <strong>ly</strong></td>
-            <td>3.80</td>
-            <td>6,515 <strong>K</strong></td>
-          </tr>
-        </table>
+        <div class=svgNtable>
+          <object class="sternbild" type="image/svg+xml" data="cygnuslyra.svg" alt="Cygnus and Lyra Constellation"></object>
+          <div class="tableNlegend">
+            <table>
+              <tr>
+                <th>Star</th>
+                <th>Name</th>
+                <th>Distance</th>
+                <th>Magnitude</th>
+                <th>Temperature</th>
+              </tr>
+              <tr>
+                <td>α</td>
+                <td>Deneb</td>
+                <td>2,616 <strong>ly</strong></td>
+                <td>1.25</td>
+                <td>8,525 <strong>K</strong></td>
+              </tr>
+              <tr>
+                <td>β</td>
+                <td>Albireo (A)</td>
+                <td>420 <strong>ly</strong></td>
+                <td>3.1</td>
+                <td>4,383 <strong>K</strong></td>
+              </tr>
+              <tr>
+                <td>γ</td>
+                <td>Sadr</td>
+                <td>1,800 <strong>ly</strong></td>
+                <td>2.23</td>
+                <td>6,100 <strong>K</strong></td>
+              </tr>
+              <tr>
+                <td>δ</td>
+                <td>Fawaris</td>
+                <td>165 <strong>ly</strong></td>
+                <td>2.87</td>
+                <td>9,600 <strong>K</strong></td>
+              </tr>
+              <tr>
+                <td>ε</td>
+                <td>Aljanah</td>
+                <td>72 <strong>ly</strong></td>
+                <td>2.48</td>
+                <td>7,320 <strong>K</strong></td>
+              </tr>
+              <tr>
+                <td>ζ</td>
+                <td>Zeta Cygni (A)</td>
+                <td>151 <strong>ly</strong></td>
+                <td>3.26</td>
+                <td>4,820 <strong>K</strong></td>
+              </tr>
+              <tr>
+                <td>η</td>
+                <td>Eta Cygni</td>
+                <td>138 <strong>ly</strong></td>
+                <td>3.89</td>
+                <td>4,780 <strong>K</strong></td>
+              </tr>
+              <tr>
+                <td>ι2</td>
+                <td>Iota(²) Cygni</td>
+                <td>115 <strong>ly</strong></td>
+                <td>3.76</td>
+                <td>8,216 <strong>K</strong></td>
+              </tr>
+              <tr>
+                <td>κ</td>
+                <td>Kappa Cygni</td>
+                <td>124 <strong>ly</strong></td>
+                <td>3.80</td>
+                <td>6,515 <strong>K</strong></td>
+              </tr>
+            </table>
+            <p class="legend">Magnitude is Apparent Magnitude (V)</p>
+          </div>
+        </div>
         <p><strong>Mythological Figure:</strong> Cygnus represents a swan. In Greek mythology, it’s associated with several myths, including the story of Zeus disguising himself as a swan.</p>
         <p><strong>Seasons When Visible:</strong> Best visible in the Northern Hemisphere from June to October.</p>
       </div>
@@ -266,51 +269,56 @@
     <div id="Lyra" class="outer">
       <div id="lyra" class="constellation">
         <h2>Lyra (The Lyre)</h2>
-        <img src="lyra.jpg" alt="Lyra Constellation" />
-        <table>
-          <tr>
-            <th>Star</th>
-            <th>Name</th>
-            <th>Distance</th>
-            <th>Magnitude (V)</th>
-            <th>Temperature</th>
-          </tr>
-          <tr>
-            <td>α</td>
-            <td>Vega</td>
-            <td>25 <strong>ly</strong></td>
-            <td>0.03</td>
-            <td>9,602 <strong>K</strong></td>
-          </tr>
-          <tr>
-            <td>β</td>
-            <td>Sheliak (A)</td>
-            <td>960 <strong>ly</strong></td>
-            <td>3.52</td>
-            <td>13,200 <strong>K</strong></td>
-          </tr>
-          <tr>
-            <td>γ</td>
-            <td>Gamma Lyrae</td>
-            <td>620 <strong>ly</strong></td>
-            <td>3.25</td>
-            <td>10,500 <strong>K</strong></td>
-          </tr>
-          <tr>
-            <td>δ</td>
-            <td>Delta Lyrae</td>
-            <td>1,100 <strong>ly</strong></td>
-            <td>5.57</td>
-            <td>7,300 <strong>K</strong></td>
-          </tr>
-          <tr>
-            <td>ε</td>
-            <td>Epsilon Lyrae</td>
-            <td>162 <strong>ly</strong></td>
-            <td>4.67</td>
-            <td>7,500 <strong>K</strong></td>
-          </tr>
-        </table>
+        <div class=svgNtable>
+          <object class="sternbild" type="image/svg+xml" data="cygnuslyra.svg" alt="Cygnus and Lyra Constellation"></object>
+          <div class="tableNlegend">
+            <table>
+              <tr>
+                <th>Star</th>
+                <th>Name</th>
+                <th>Distance</th>
+                <th>Magnitude (V)</th>
+                <th>Temperature</th>
+              </tr>
+              <tr>
+                <td>α</td>
+                <td>Vega</td>
+                <td>25 <strong>ly</strong></td>
+                <td>0.03</td>
+                <td>9,602 <strong>K</strong></td>
+              </tr>
+              <tr>
+                <td>β</td>
+                <td>Sheliak (A)</td>
+                <td>960 <strong>ly</strong></td>
+                <td>3.52</td>
+                <td>13,200 <strong>K</strong></td>
+              </tr>
+              <tr>
+                <td>γ</td>
+                <td>Gamma Lyrae</td>
+                <td>620 <strong>ly</strong></td>
+                <td>3.25</td>
+                <td>10,500 <strong>K</strong></td>
+              </tr>
+              <tr>
+                <td>δ</td>
+                <td>Delta Lyrae</td>
+                <td>1,100 <strong>ly</strong></td>
+                <td>5.57</td>
+                <td>7,300 <strong>K</strong></td>
+              </tr>
+              <tr>
+                <td>ε</td>
+                <td>Epsilon Lyrae</td>
+                <td>162 <strong>ly</strong></td>
+                <td>4.67</td>
+                <td>7,500 <strong>K</strong></td>
+              </tr>
+            </table>
+            <p class="legend">Magnitude is Apparent Magnitude (V)</p>
+          </div>
+        </div>
         <p><strong>Mythological Figure:</strong> Lyra represents the lyre of Orpheus, the musician who could charm anything with his music.</p>
         <p><strong>Seasons When Visible:</strong> Best visible in the Northern Hemisphere from June to October.</p>
       </div>
@@ -319,51 +327,56 @@
     <div id="Delpinus" class="outer">
       <div id="delphinus" class="constellation">
         <h2>Delphinus (The Dolphin)</h2>
-        <object type="image/svg+xml" data="delphinus.svg" alt="Delphinus Constellation"></object>
-        <table>
-          <tr>
-            <th>Star</th>
-            <th>Name</th>
-            <th>Distance</th>
-            <th>Magnitude</th>
-            <th>Temperature</th>
-          </tr>
-          <tr>
-            <td>α</td>
-            <td>Sualocin (A)</td>
-            <td>241 <strong>ly</strong></td>
-            <td>3.77</td>
-            <td>11,643 <strong>K</strong></td>
-          </tr>
-          <tr>
-            <td>β</td>
-            <td>Rotanev</td>
-            <td>97 <strong>ly</strong></td>
-            <td>3.63</td>
-            <td>6587 <strong>K</strong></td>
-          </tr>
-          <tr>
-            <td>γ</td>
-            <td>Gamma Delphini</td>
-            <td>101 <strong>ly</strong></td>
-            <td>4.27</td>
-            <td>6,600 <strong>K</strong></td>
-          </tr>
-          <tr>
-            <td>δ</td>
-            <td>Delta Delphini</td>
-            <td>223 <strong>ly</strong></td>
-            <td>4.43</td>
-            <td>7,340 <strong>K</strong></td>
-          </tr>
-          <tr>
-            <td>ε</td>
-            <td>Epsilon Delphini</td>
-            <td>358 <strong>ly</strong></td>
-            <td>4.03</td>
-            <td>9,200 <strong>K</strong></td>
-          </tr>
-        </table>
+        <div class=svgNtable>
+          <object class="sternbild" type="image/svg+xml" data="delphinus.svg" alt="Delphinus Constellation"></object>
+          <div class="tableNlegend">
+            <table>
+              <tr>
+                <th>Star</th>
+                <th>Name</th>
+                <th>Distance</th>
+                <th>Magnitude</th>
+                <th>Temperature</th>
+              </tr>
+              <tr>
+                <td>α</td>
+                <td>Sualocin (A)</td>
+                <td>241 <strong>ly</strong></td>
+                <td>3.77</td>
+                <td>11,643 <strong>K</strong></td>
+              </tr>
+              <tr>
+                <td>β</td>
+                <td>Rotanev</td>
+                <td>97 <strong>ly</strong></td>
+                <td>3.63</td>
+                <td>6587 <strong>K</strong></td>
+              </tr>
+              <tr>
+                <td>γ</td>
+                <td>Gamma Delphini</td>
+                <td>101 <strong>ly</strong></td>
+                <td>4.27</td>
+                <td>6,600 <strong>K</strong></td>
+              </tr>
+              <tr>
+                <td>δ</td>
+                <td>Delta Delphini</td>
+                <td>223 <strong>ly</strong></td>
+                <td>4.43</td>
+                <td>7,340 <strong>K</strong></td>
+              </tr>
+              <tr>
+                <td>ε</td>
+                <td>Epsilon Delphini</td>
+                <td>358 <strong>ly</strong></td>
+                <td>4.03</td>
+                <td>9,200 <strong>K</strong></td>
+              </tr>
+            </table>
+            <p class="legend">Magnitude is Apparent Magnitude (V)</p>
+          </div>
+        </div>
         <p><strong>Mythological Figure:</strong> Delphinus is associated with the dolphin that saved the life of the Greek poet Arion.</p>
         <p><strong>Seasons When Visible:</strong> Best visible in the Northern Hemisphere from July to October.</p>
       </div>
