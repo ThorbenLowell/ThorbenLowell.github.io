@@ -114,8 +114,25 @@
         margin-left: 16px;
         margin-right: 16px;
       }
-      
-      
+
+      .titel {
+        diplay: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      h1 {
+        width: fit-content;
+      }
+
+      .common {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .seperate {
+        max-width: 40vw;
+      }
     </style>
   </head>
 
@@ -291,9 +308,20 @@
 
 <p><br><br><br><br><br></p>
 
-    <div id="Cygnus" class="outer">
+    <div id="CygnusLyra" class="outer">
+      <div class="common">
+        <div class="titel">
+          <h1>Cygnus <strong>RA: 20h 35m 00s | +42° 00' 00"</strong></h1>
+          <h1 style="text-align: right;">Lyra <strong>RA: 19h 00m 00s | Decl: +40° 00' 00"</strong></h1>
+        </div>
+        <div class="bilder">
+          <object class="sternbild" type="image/svg+xml" data="cygnuslyra.svg" alt="Cygnus and Lyra Constellation"></object>
+          <img class="mythIMG" src="cygnuslyramyth.jpg">
+        </div>
+      </div>
+
+    <div class="seperate">
       <div id="cygnus" class="constellation">
-        <h1>Cygnus <strong>RA: 20h 35m 00s | +42° 00' 00"</strong></h1>
         <div class="svgNtable">
           <div class="tableNlegend">
             <table>
@@ -370,10 +398,8 @@
             </table>
             <p class="legend">². Magnitude is Apparent Magnitude (V)</p>
           </div>
-        <object class="sternbild" type="image/svg+xml" data="cygnuslyra.svg" alt="Cygnus and Lyra Constellation"></object>
         </div>
         <div class="myth">
-          <img class="mythIMG" src="cygnuslyramyth.jpg">
           <div class="vismyth">
             <p class="visible">Visible from June to December, Best Months: July to October, with its peak visibility in late summer.</p>
             <p class="myth">In Greek mythology, Cygnus is linked to several myths, the most popular being the story of the close friends Phaethon and Cygnus. When Phaethon lost control of the Sun’s chariot and crashed into the river Eridanus, Cygnus, overcome with grief, dove repeatedly into the river to retrieve his friend's body. The gods, moved by his loyalty, transformed him into a swan (Cygnus) so he could swim in the river forever. Another myth relates Cygnus to Zeus, who took the form of a swan to seduce Leda, the mother of Helen of Troy.</p>
@@ -381,14 +407,13 @@
         </div>
       </div>
     </div>
+    
 
  <p><br><br><br><br><br></p>   
 
-    <div id="Lyra" class="outer">
+    <div class="seperate">
       <div id="lyra" class="constellation">
-        <h1>Lyra <strong>RA: 19h 00m 00s | Decl: +40° 00' 00"</strong></h1>
         <div class="svgNtable">
-          <object class="sternbild" type="image/svg+xml" data="cygnuslyra.svg" alt="Cygnus and Lyra Constellation"></object>
           <div class="tableNlegend">
             <table>
               <tr>
@@ -438,13 +463,13 @@
           </div>
         </div>
         <div class="myth">
-          <img class="mythIMG" src="cygnuslyrasmyth.jpg">
           <div class="vismyth">
             <p class="visible">Visible from May to December, Best Months: June to September, especially during the summer.</p>
             <p class="myth">Lyra is associated with the myth of Orpheus, the legendary musician and poet. Orpheus played such beautiful music on his lyre that it could charm anyone, even inanimate objects. When his wife, Eurydice, died, Orpheus traveled to the underworld to retrieve her, using his music to soften the hearts of Hades and Persephone. Though he failed to bring her back, Zeus placed Orpheus’ lyre in the sky as the constellation Lyra, forever honoring his talents and love for Eurydice.</p>
           </div>
         </div>
       </div>
+    </div>
     </div>
 
 <p><br><br><br><br><br></p>
