@@ -92,7 +92,7 @@
 
       .sternbildNIKOLAUS {
         flex-grow: 1;
-        max-width: 100%;
+        max-width: 50%;
       }
 
       .navlink {
@@ -161,6 +161,17 @@
         display: flex;
         justify-content: space-between;
       }
+
+      .nikoNtext {
+        display: flex;
+        flex-direction: row;
+        max-width: 50%;
+      }
+
+      nikotext {
+        display: flex;
+        flex-direction: column;
+      }
     </style>
   </head>
 
@@ -184,7 +195,14 @@
         </p>
                 <p class="visible">it is Visible from June to December, Best Months: July to October, with its peak visibility in late summer.</p>    
         <div style="display: flex; flex-direction: column">
-          <object class="sternbildNIKOLAUS" type="image/svg+xml" data="nikolaus.svg" alt="Nikolaus Constellation"></object>
+          <div class="nikoNtext">
+            <object class="sternbildNIKOLAUS" type="image/svg+xml" data="nikolaus.svg" alt="Nikolaus Constellation"></object>
+            <div class="nikotext">
+              <p></p>My very own constellation is the so called crooked house of St. Nicholas. It is in the area of the Cygnus constellation and five of it's six main stars are main stars of the Cygnus constellation. <br>
+              The stars (if you exclude β Nik) can be connected with a single line to form the (in germany notorious) house of St. Nicholas.</p>
+              <p class="visible">it is Visible from June to December, Best Months: July to October, with its peak visibility in late summer.</p>  
+            </div>
+          </div>
           <div class="tableNlegend">
             <table>
               <tr>
